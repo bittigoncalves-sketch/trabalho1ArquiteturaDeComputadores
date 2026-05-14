@@ -4,38 +4,38 @@ import { useState } from 'react';
 const MILESTONES = [
   {
     year: "2006",
-    title: "O Início Intel",
-    desc: "O primeiro MacBook Pro substitui o PowerBook G4, trazendo processadores Intel Core Duo e a conexão MagSafe.",
+    title: "Mac Pro 1,1",
+    desc: "A transição do Power Mac G5 para Intel. O primeiro Mac Pro trazia o icônico chassi de alumínio perfurado e slots massivos de expansão.",
     color: "bg-gray-500"
   },
   {
-    year: "2008",
-    title: "Unibody Design",
-    desc: "A Apple introduz o chassi esculpido em uma única peça de alumínio, elevando a durabilidade e integrando a Mini DisplayPort.",
+    year: "2013",
+    title: "O Design Cilindro",
+    desc: "Um design radical e compacto focado em núcleos duplos de GPU e um núcleo térmico central unificado, carinhosamente chamado de 'trashcan'.",
+    color: "bg-zinc-800"
+  },
+  {
+    year: "2019",
+    title: "Retorno às Origens",
+    desc: "O retorno da torre modular com o design 'Cheese Grater', focado em máxima expansibilidade PCIe e ventilação silenciosa.",
     color: "bg-zinc-400"
   },
   {
-    year: "2012",
-    title: "Retina Display",
-    desc: "Uma revolução visual com resolução de 2880 x 1800, removendo o leitor de CD e tornando o perfil muito mais fino.",
-    color: "bg-blue-400"
-  },
-  {
-    year: "2016",
-    title: "Touch Bar",
-    desc: "Foco total em USB-C/Thunderbolt 3 e a introdução da faixa OLED sensível ao toque no teclado.",
-    color: "bg-purple-400"
-  },
-  {
-    year: "2020",
-    title: "Apple Silicon M1",
-    desc: "A mudança mais radical: adeus Intel. O chip M1 traz eficiência energética e desempenho por watt sem precedentes.",
+    year: "2023",
+    title: "Apple Silicon Era",
+    desc: "O Mac Pro recebe o chip M2 Ultra, integrando a performance unificada do silício da Apple com a versatilidade dos slots PCIe.",
     color: "bg-gradient-to-r from-blue-500 to-purple-600"
   },
   {
-    year: "2021-2024",
-    title: "Era M1/M2/M3 Pro/Max",
-    desc: "O retorno das portas (HDMI, SD) e a introdução dos chips M3 de 3nm, os mais poderosos já criados para laptops.",
+    year: "Expansão",
+    title: "Slots PCIe Gen 4",
+    desc: "Diferente de outros Macs, o Mac Pro oferece sete slots de expansão para placas de áudio, redes de alta velocidade e armazenamento.",
+    color: "bg-blue-400"
+  },
+  {
+    year: "Futuro",
+    title: "Performance Total",
+    desc: "Com o Neural Engine e arquitetura de 3nm no horizonte, o Mac Pro continua sendo a base técnica das maiores produções do mundo.",
     color: "bg-gradient-to-tr from-apple-blue to-indigo-600"
   }
 ];

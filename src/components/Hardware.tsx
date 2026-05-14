@@ -4,33 +4,33 @@ import { Cpu, Monitor, Battery, Zap, Fingerprint, Waves } from 'lucide-react';
 const FEATURES = [
   {
     icon: <Cpu className="text-purple-400" />,
-    title: "Apple Silicon",
-    desc: "Chips M3, M3 Pro e M3 Max com arquitetura de 3 nanômetros."
+    title: "Chip M2 Ultra",
+    desc: "Une dois chips M2 Max para criar uma potência massiva com 24 núcleos de CPU e até 76 núcleos de GPU."
   },
   {
     icon: <Monitor className="text-blue-400" />,
-    title: "Liquid Retina XDR",
-    desc: "Tecnologia Mini-LED com brilho dinâmico e ProMotion 120Hz."
-  },
-  {
-    icon: <Battery className="text-green-400" />,
-    title: "Bateria Extrema",
-    desc: "Até 22 horas de autonomia em um único carregamento."
+    title: "Suporte Multi-Monitor",
+    desc: "Capacidade de alimentar até oito monitores 4K ou três Pro Display XDR simultaneamente."
   },
   {
     icon: <Zap className="text-yellow-400" />,
-    title: "SSD Ultrapasso",
-    desc: "Leitura de dados de até 7.4GB/s para fluxos instantâneos."
-  },
-  {
-    icon: <Fingerprint className="text-pink-400" />,
-    title: "Touch ID",
-    desc: "Segurança biométrica integrada para compras e desbloqueio."
+    title: "Expansão PCIe",
+    desc: "Sete slots de expansão PCIe para customizar seu workflow com placas profissionais de áudio ou vídeo."
   },
   {
     icon: <Waves className="text-cyan-400" />,
-    title: "Som Espacial",
-    desc: "Sistema de 6 altofalantes com woofers de cancelamento."
+    title: "Conectividade Total",
+    desc: "Portas Thunderbolt 4, 10Gb Ethernet e Wi-Fi 6E para as velocidades mais rápidas de transferência."
+  },
+  {
+    icon: <Fingerprint className="text-pink-400" />,
+    title: "Chassi em Aço",
+    desc: "Estrutura interna em aço inoxidável projetada para facilitar o acesso e a mobilidade com rodas opcionais."
+  },
+  {
+    icon: <Battery className="text-green-400" />,
+    title: "Arquitetura Térmica",
+    desc: "Três ventoinhas frontais massivas silenciosas que mantêm o sistema resfriado mesmo em carga máxima."
   }
 ];
 
@@ -41,7 +41,7 @@ export default function Hardware() {
         <div className="text-center mb-20">
           <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">Hardware e Engenharia</h2>
           <p className="text-apple-silver/60 max-w-2xl mx-auto">
-            Por dentro da máquina: como a Apple redefiniu o que é possível em um formato portátil.
+            Por dentro da estação: como a Apple redefiniu o que é possível em uma workstation modular.
           </p>
         </div>
 

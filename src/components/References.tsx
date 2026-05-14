@@ -1,16 +1,16 @@
 import { ExternalLink, BookOpen } from 'lucide-react';
 
 const REFS = [
-  { name: "Site Oficial Apple - MacBook Pro", url: "https://www.apple.com/br/macbook-pro/" },
+  { name: "Site Oficial Apple - Mac Pro", url: "https://www.apple.com/br/mac-pro/" },
   { name: "Relatório de Impacto Ambiental Apple 2024", url: "https://www.apple.com/environment/" },
-  { name: "AnandTech - Apple M3 Max Architecture Deep Dive", url: "https://www.anandtech.com" },
-  { name: "The Verge - History of the MacBook Pro", url: "https://www.theverge.com" },
+  { name: "AnandTech - Apple M2 Ultra Architecture Deep Dive", url: "https://www.anandtech.com" },
+  { name: "The Verge - History of the Mac Pro", url: "https://www.theverge.com" },
   { name: "Geekbench - Mac Benchmarks Database", url: "https://browser.geekbench.com/mac-benchmarks" }
 ];
 
 export default function References() {
   return (
-    <footer id="references" className="py-24 bg-zinc-950 border-t border-white/5">
+    <footer id="references" className="py-24 bg-zinc-950 border-t border-white/5 h-full flex flex-col justify-center">
       <div className="container mx-auto px-6">
         <div className="flex items-center gap-3 mb-10">
           <BookOpen className="text-apple-blue" size={24} />
@@ -35,12 +35,11 @@ export default function References() {
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex flex-col items-center md:items-start">
-             <span className="font-display font-bold text-xl mb-1">MacBook Pro Presentation</span>
+             <span className="font-display font-bold text-xl mb-1">Mac Pro Presentation</span>
              <span className="text-xs text-white/30 uppercase tracking-[0.3em]">Project 2024 • Academic Edition</span>
           </div>
           
           <div className="flex gap-8 text-xs text-white/40 uppercase tracking-widest font-medium">
-             <a href="#home" className="hover:text-apple-blue transition-colors">Voltar ao Topo</a>
              <span className="cursor-default">© Todos os direitos reservados.</span>
           </div>
         </div>

@@ -15,9 +15,9 @@ export default function Conclusion() {
             <span className="text-apple-blue italic">Uma Revolução.</span>
           </h2>
           <p className="text-xl text-apple-silver/60 leading-relaxed mb-16">
-            O MacBook Pro encerra este trabalho não apenas como um produto de mercado, mas como um marco da engenharia moderna. 
+            O Mac Pro encerra este trabalho não apenas como um produto de mercado, mas como um marco da engenharia moderna. 
             A transição para o Apple Silicon provou que é possível unir potência bruta e eficiência extrema, inspirando a indústria a elevar o nível tecnológico. 
-            É o companheiro inseparável de quem molda o futuro através do código, da arte e da ciência.
+            É a fundação técnica de quem molda o futuro através do código, da arte e da ciência com workflows extremos.
           </p>
           
           <div className="h-px w-24 bg-apple-blue mx-auto mb-12" />

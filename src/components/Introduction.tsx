@@ -5,17 +5,17 @@ const INTRO_CARDS = [
   {
     icon: <Laptop className="text-apple-blue" size={32} />,
     title: "O que é?",
-    text: "O MacBook Pro é a linha de notebooks de alto desempenho da Apple, projetada para fluxos de trabalho intensos que exigem poder de processamento, excelência visual e autonomia."
+    text: "O Mac Pro é a workstation de desktop mais potente da Apple, projetada para profissionais que exigem máxima performance, expansibilidade e estabilidade em fluxos de trabalho extremos."
   },
   {
     icon: <History className="text-apple-blue" size={32} />,
     title: "Origem",
-    text: "Lançado originalmente em 2006 como sucessor do PowerBook G4, marcou a transição histórica da Apple para processadores Intel, definindo o padrão de design unibody."
+    text: "Lançado em 2006 como sucessor do Power Mac G5, o Mac Pro estabeleceu o padrão para computação de alto desempenho, evoluindo de torres modulares para designs compactos e retornando à modularidade."
   },
   {
     icon: <Target className="text-apple-blue" size={32} />,
     title: "Público-Alvo",
-    text: "Desenvolvedores, editores de vídeo, fotógrafos, designers e profissionais que buscam uma máquina confiável e extremamente potente para o dia a dia."
+    text: "Estúdios de cinema, cientistas de dados, engenheiros de áudio e profissionais de renderização 3D que necessitam de uma máquina robusta e infinitamente capaz."
   }
 ];
 
@@ -29,11 +29,11 @@ export default function Introduction() {
            viewport={{ once: true }}
            className="max-w-3xl mb-20"
         >
-          <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">A Ferramenta Definitiva</h2>
+          <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">A Estação Próxima do Infinito</h2>
           <p className="text-apple-silver/60 text-lg leading-relaxed">
-            Mais do que um simples notebook, o MacBook Pro é um ecossistema de produtividade. 
-            Ao longo de quase duas décadas, ele evoluiu de uma workstation portátil 
-            para um objeto de desejo tecnológico que dita tendências globais.
+            O Mac Pro representa o ápice da engenharia da Apple. Diferente do MacBook, ele é focado em 
+            permanência, expansão e capacidade de processamento sustentada por períodos indefinidos 
+            graças ao seu sistema térmico avançado.
           </p>
         </motion.div>
 

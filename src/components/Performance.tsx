@@ -2,17 +2,16 @@ import { motion } from 'motion/react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
 const DATA = [
-  { name: 'Intel i9 (2019)', value: 100, color: '#444' },
-  { name: 'Apple M1 Max', value: 240, color: '#3b82f6' },
-  { name: 'Apple M2 Max', value: 310, color: '#6366f1' },
-  { name: 'Apple M3 Max', value: 480, color: '#8b5cf6' },
+  { name: 'Intel Xeon 28-core', value: 100, color: '#444' },
+  { name: 'Apple M1 Ultra', value: 250, color: '#3b82f6' },
+  { name: 'Apple M2 Ultra', value: 380, color: '#8b5cf6' },
 ];
 
 const CATEGORIES = [
-  { title: "Edição de Vídeo", text: "Renderização de múltiplas trilhas ProRes 8K sem engasgos." },
-  { title: "Programação", text: "Compilação de código 4x mais rápida que modelos Intel." },
-  { title: "IA & ML", text: "Aceleração de redes neurais via Neural Engine integrado." },
-  { title: "3D & Jogos", text: "Ray Tracing por hardware pela primeira vez em um Mac." }
+  { title: "Transcodificação de Vídeo", text: "Processa 22 trilhas de vídeo 8K ProRes simultaneamente." },
+  { title: "Simulação Científica", text: "Cálculos matemáticos complexos resolvidos em fração do tempo de workstations Intel." },
+  { title: "Renderização 3D", text: "Suporte a ray tracing via software e hardware integrado no silício Apple." },
+  { title: "Inteligência Artificial", text: "Capacidade de rodar modelos LLM massivos graças aos 192GB de memória unificada." }
 ];
 
 export default function Performance() {
@@ -25,10 +24,9 @@ export default function Performance() {
              whileInView={{ opacity: 1, x: 0 }}
              viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-5xl font-display font-bold mb-8">Poder sem Precedentes</h2>
+            <h2 className="text-3xl md:text-5xl font-display font-bold mb-8">Performance Incomparável</h2>
             <p className="text-apple-silver/60 text-lg mb-12 leading-relaxed">
-              O MacBook Pro não apenas compete com desktops de alto nível; ele os supera em eficiência. 
-              A integração vertical entre hardware e software permite que o sistema extraia cada grama de performance do silício.
+              O Mac Pro com Apple Silicon redefiniu o que uma workstation pode fazer sem consumir centenas de watts e gerar calor excessivo.
             </p>
             
             <div className="space-y-6">

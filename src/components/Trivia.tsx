@@ -4,23 +4,23 @@ import { Star, Award, Briefcase, Globe } from 'lucide-react';
 const TRIVIA = [
   {
     icon: <Star size={24} />,
-    title: "Cinema e TV",
-    text: "O MacBook Pro é o computador mais presente em estúdios de Hollywood. Quase todos os ganhadores do Oscar de edição nos últimos 10 anos usaram um Mac."
+    title: "Grade de Ventilação",
+    text: "O design do chassi de 2019 é baseado em uma estrutura molecular que maximiza o fluxo de ar mantendo a rigidez estrutural."
   },
   {
     icon: <Globe size={24} />,
-    title: "Impacto Ambiental",
-    text: "O chassi dos novos modelos é feito de alumínio 100% reciclado, e as soldas da placa lógica usam ouro 100% reciclado."
+    title: "Modularidade de Chassi",
+    text: "O Mac Pro é o único computador da Apple atual onde o usuário pode remover facilmente o gabinete externo para acessar o interior."
   },
   {
     icon: <Briefcase size={24} />,
-    title: "Padrão Corporativo",
-    text: "Empresas como IBM e SAP relatam que usuários de Mac exigem menos suporte técnico e têm maior retenção de valor de revenda que PCs Windows."
+    title: "Rodas Opcionais",
+    text: "A Apple oferece um kit de rodinhas para o Mac Pro que custa cerca de 400 dólares, tornando-se um símbolo de debate sobre preço e valor."
   },
   {
     icon: <Award size={24} />,
-    title: "Engenharia M",
-    text: "O chip M3 Max tem 92 bilhões de transistores, mais do que a população de transistores de supercomputadores de 15 anos atrás."
+    title: "M2 Ultra e Além",
+    text: "O chip M2 Ultra no Mac Pro é capaz de processar simultaneamente bilhões de operações por segundo em workflows de cinema 8K."
   }
 ];
 

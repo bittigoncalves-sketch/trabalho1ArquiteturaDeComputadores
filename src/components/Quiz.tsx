@@ -4,24 +4,24 @@ import { CheckCircle2, RotateCcw, Award } from 'lucide-react';
 
 const QUESTIONS = [
   {
-    question: "Em que ano foi lançado o primeiro MacBook Pro?",
-    options: ["2004", "2006", "2008", "2010"],
+    question: "Qual o apelido dado ao design do Mac Pro de 2013?",
+    options: ["Cheese Grater", "Lixeira (Trashcan)", "Prato de Prata", "Cubo de Gelo"],
     answer: 1
   },
   {
-    question: "Qual o nome da arquitetura de chips própria da Apple lançada em 2020?",
-    options: ["Apple Power", "Apple Silicon", "Mac Fusion", "Global Core"],
-    answer: 1
+    question: "O chip M2 Ultra é uma combinação de quantos chips M2 Max?",
+    options: ["2", "3", "4", "8"],
+    answer: 0
   },
   {
-    question: "Qual o brilho máximo (peak) da tela Liquid Retina XDR nos modelos atuais?",
-    options: ["500 nits", "1000 nits", "1600 nits", "2500 nits"],
+    question: "Quantos slots PCIe o Mac Pro atual oferece para expansão?",
+    options: ["2", "5", "7", "10"],
     answer: 2
   },
   {
-    question: "Qual conector de carregamento magnético retornou nos modelos de 2021?",
-    options: ["USB-C", "MagSafe", "Thunderbolt", "FireWire"],
-    answer: 1
+    question: "Qual material compõe a estrutura interna do Mac Pro de 2019/2023?",
+    options: ["Alumínio", "Titânio", "Aço Inoxidável", "Fibra de Carbono"],
+    answer: 2
   }
 ];
 
@@ -64,7 +64,7 @@ export default function Quiz() {
       <div className="container mx-auto px-6 max-w-3xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-display font-bold mb-4">Teste seu Conhecimento</h2>
-          <p className="text-apple-silver/60">Quão bem você conhece o MacBook Pro?</p>
+          <p className="text-apple-silver/60">Quão bem você conhece o Mac Pro?</p>
         </div>
 
         <div className="glass p-8 md:p-12 rounded-[40px] relative overflow-hidden">

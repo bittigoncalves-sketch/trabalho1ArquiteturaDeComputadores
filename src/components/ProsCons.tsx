@@ -2,21 +2,21 @@ import { motion } from 'motion/react';
 import { Check, X, Info } from 'lucide-react';
 
 const PROS = [
-  "Performance líder na categoria com Apple Silicon.",
-  "Autonomia de bateria excepcional (até 22h).",
-  "A melhor tela (Liquid Retina XDR) em um laptop.",
-  "Qualidade de construção premium e durável.",
-  "Ecossistema integrado com iPhone/iPad.",
-  "Teclado Magic Keyboard confortável e confiável."
+  "Máxima expansibilidade com 7 slots PCIe.",
+  "Performance absurda com o chip M2 Ultra.",
+  "Sistema térmico superior que nunca diminui a velocidade.",
+  "Até 192GB de memória unificada ultra-rápida.",
+  "Inúmeras portas Thunderbolt 4 e 10Gb Ethernet.",
+  "Integração perfeita com o monitor Studio Display e Pro Display XDR."
 ];
 
 const CONS = [
-  "Preço inicial extremamente alto.",
-  "Upgrade de RAM e SSD impossível (tudo soldado).",
-  "Design mais grosso e pesado que o MacBook Air.",
-  "Pouca variedade de jogos nativos disponíveis.",
-  "Custos de reparo fora da garantia elevados.",
-  "Falta de suporte para eGPU (GPU externa)."
+  "Preço extremamente proibitivo para usuários comuns.",
+  "Não aceita mais placas de vídeo externas (eGPU).",
+  "Memória RAM não pode ser expandida após a compra.",
+  "Tamanho físico ocupa espaço significativo na mesa.",
+  "Falta de opções de entrada mais acessíveis.",
+  "Limitado a nichos profissionais muito específicos."
 ];
 
 export default function ProsCons() {
@@ -86,7 +86,7 @@ export default function ProsCons() {
         >
            <Info className="text-apple-blue flex-shrink-0" />
            <p className="text-sm text-apple-silver/60 italic leading-relaxed">
-             <strong>Veredito:</strong> O MacBook Pro é um investimento. Para profissionais cujo tempo é dinheiro, a economia em velocidade de renderização e compilação justifica o custo. Para usuários básicos, o MacBook Air costuma ser a melhor escolha.
+             <strong>Veredito:</strong> O Mac Pro é um investimento para grandes estúdios. Para profissionais cujo tempo é dinheiro, a economia em velocidade de renderização justifica o custo. Para a maioria, o Mac Studio é a melhor alternativa.
            </p>
         </motion.div>
       </div>
