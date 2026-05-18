@@ -23,19 +23,35 @@ export default function Introduction() {
   return (
     <section id="intro" className="py-24 md:py-32 bg-apple-black relative overflow-hidden">
       <div className="container mx-auto px-6">
-        <motion.div
-           initial={{ opacity: 0, y: 20 }}
-           whileInView={{ opacity: 1, y: 0 }}
-           viewport={{ once: true }}
-           className="max-w-3xl mb-20"
-        >
-          <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">A Estação Próxima do Infinito</h2>
-          <p className="text-apple-silver/60 text-lg leading-relaxed">
-            O Mac Pro representa o ápice da engenharia da Apple. Diferente do MacBook, ele é focado em 
-            permanência, expansão e capacidade de processamento sustentada por períodos indefinidos 
-            graças ao seu sistema térmico avançado.
-          </p>
-        </motion.div>
+        <div className="flex flex-col lg:flex-row gap-12 items-center mb-20">
+          <motion.div
+             initial={{ opacity: 0, x: -20 }}
+             whileInView={{ opacity: 1, x: 0 }}
+             viewport={{ once: true }}
+             className="flex-1"
+          >
+            <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">A Estação Próxima do Infinito</h2>
+            <p className="text-apple-silver/60 text-lg leading-relaxed">
+              O Mac Pro representa o ápice da engenharia da Apple. Diferente do MacBook, ele é focado em 
+              permanência, expansão e capacidade de processamento sustentada por períodos indefinidos 
+              graças ao seu sistema térmico avançado.
+            </p>
+          </motion.div>
+          
+          <motion.div
+             initial={{ opacity: 0, scale: 0.9 }}
+             whileInView={{ opacity: 1, scale: 1 }}
+             viewport={{ once: true }}
+             className="flex-1 w-full aspect-video rounded-[32px] overflow-hidden glass border border-white/10"
+          >
+            <img 
+              src="https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=2670&auto=format&fit=crop" 
+              alt="Mac Pro Production Setup" 
+              className="w-full h-full object-cover opacity-80"
+              referrerPolicy="no-referrer"
+            />
+          </motion.div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {INTRO_CARDS.map((card, idx) => (

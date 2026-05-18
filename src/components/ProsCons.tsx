@@ -23,10 +23,28 @@ export default function ProsCons() {
   return (
     <section id="pros-cons" className="py-24 md:py-32 bg-zinc-900 overflow-hidden">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-20">
+        <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">Prós e Contras</h2>
           <p className="text-apple-silver/60">Uma análise realista sobre o custo-benefício do produto.</p>
         </div>
+        
+        <motion.div
+           initial={{ opacity: 0, y: 20 }}
+           whileInView={{ opacity: 1, y: 0 }}
+           viewport={{ once: true }}
+           className="w-full max-w-4xl mx-auto aspect-[21/9] rounded-[40px] overflow-hidden mb-16 border border-white/5 relative"
+        >
+           <img 
+              src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop" 
+              alt="Mac Pro Components" 
+              className="w-full h-full object-cover opacity-50 grayscale"
+              referrerPolicy="no-referrer"
+           />
+           <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 to-transparent" />
+           <div className="absolute inset-0 flex items-center justify-center">
+              <span className="text-2xl md:text-4xl font-display font-medium tracking-[0.2em] uppercase text-white/50">Análise Premium</span>
+           </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Pros */}

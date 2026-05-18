@@ -69,11 +69,6 @@ export default function Hero() {
            transition={{ delay: 1.5 }}
            className="flex flex-col items-center gap-4"
         >
-           <div className="flex flex-col items-center">
-              <span className="text-xs uppercase tracking-[0.2em] text-white/40 mb-2">Apresentado por</span>
-              <p className="text-lg font-medium">Sua Equipe / Instituição</p>
-           </div>
-           
            <motion.a 
             href="#intro"
             animate={{ y: [0, 8, 0] }}

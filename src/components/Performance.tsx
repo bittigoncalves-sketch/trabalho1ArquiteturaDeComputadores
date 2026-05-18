@@ -25,9 +25,23 @@ export default function Performance() {
              viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-5xl font-display font-bold mb-8">Performance Incomparável</h2>
-            <p className="text-apple-silver/60 text-lg mb-12 leading-relaxed">
+            <p className="text-apple-silver/60 text-lg mb-8 leading-relaxed">
               O Mac Pro com Apple Silicon redefiniu o que uma workstation pode fazer sem consumir centenas de watts e gerar calor excessivo.
             </p>
+            
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="w-full aspect-[21/9] rounded-2xl overflow-hidden mb-8 border border-white/5 shadow-2xl"
+            >
+              <img 
+                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc48?q=80&w=2674&auto=format&fit=crop" 
+                alt="High Performance Computing" 
+                className="w-full h-full object-cover opacity-70"
+                referrerPolicy="no-referrer"
+              />
+            </motion.div>
             
             <div className="space-y-6">
               {CATEGORIES.map((cat, idx) => (

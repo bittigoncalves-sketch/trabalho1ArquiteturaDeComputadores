@@ -81,25 +81,24 @@ export default function Hardware() {
                   Ao contrário da RAM tradicional, a arquitetura de memória unificada da Apple permite que o CPU e a GPU acessem os mesmos dados sem precisar copiá-los entre pools de memória separados. Isso resulta em latência ultra baixa e largura de banda massiva.
                 </p>
                 <div className="flex gap-4">
-                   <div className="glass px-4 py-2 rounded-full text-xs font-medium">Até 128GB</div>
-                   <div className="glass px-4 py-2 rounded-full text-xs font-medium">400GB/s Largura de Banda</div>
+                   <div className="glass px-4 py-2 rounded-full text-xs font-medium">Até 192GB</div>
+                   <div className="glass px-4 py-2 rounded-full text-xs font-medium">800GB/s Largura de Banda</div>
                 </div>
              </div>
              
              {/* Visual representation */}
-             <div className="flex-1 relative w-full h-64 md:h-80 flex items-center justify-center">
-                 <motion.div 
-                   animate={{ rotate: 360 }}
-                   transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-                   className="absolute w-40 h-40 border-2 border-dashed border-apple-blue/30 rounded-full"
+             <div className="flex-1 relative w-full h-[300px] md:h-[400px] rounded-[30px] overflow-hidden border border-white/10">
+                 <img 
+                   src="https://images.unsplash.com/photo-1591405351990-4726e331f141?q=80&w=2670&auto=format&fit=crop" 
+                   alt="Mac Pro Internals" 
+                   className="w-full h-full object-cover opacity-60"
+                   referrerPolicy="no-referrer"
                  />
-                 <motion.div 
-                   animate={{ rotate: -360 }}
-                   transition={{ duration: 15, repeat: Infinity, ease: 'linear' }}
-                   className="absolute w-60 h-60 border border-white/10 rounded-full"
-                 />
-                 <div className="w-32 h-32 glass rounded-2xl flex items-center justify-center shadow-[0_0_40px_rgba(0,102,204,0.3)]">
-                    <Cpu size={64} className="text-apple-blue" />
+                 <div className="absolute inset-0 bg-gradient-to-r from-zinc-800/80 to-transparent" />
+                 <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-24 h-24 glass rounded-2xl flex items-center justify-center shadow-[0_0_40px_rgba(0,102,204,0.3)] z-10">
+                       <Cpu size={48} className="text-apple-blue" />
+                    </div>
                  </div>
              </div>
           </motion.div>
