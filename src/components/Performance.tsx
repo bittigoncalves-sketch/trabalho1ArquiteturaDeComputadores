@@ -36,8 +36,8 @@ export default function Performance() {
               className="w-full aspect-[21/9] rounded-2xl overflow-hidden mb-8 border border-white/5 shadow-2xl"
             >
               <img 
-                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc48?q=80&w=2674&auto=format&fit=crop" 
-                alt="High Performance Computing" 
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop" 
+                alt="High Performance Technology" 
                 className="w-full h-full object-cover opacity-70"
                 referrerPolicy="no-referrer"
               />
